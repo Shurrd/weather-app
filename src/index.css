@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper {
+  background: url("./utils/tom-barrett-hgGplX3PFBg-unsplash.jpg") no-repeat
+    center center/cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.glass {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+}
